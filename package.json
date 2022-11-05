@@ -45,9 +45,9 @@
     "build:all": "npm run build && npm run build:light && npm run build:compact && npm run build:es5 && npm run build:debug && npm run build:module",
     "test": "cd test && npm install && npm run test",
     "server": "node task/server",
-    "docs:dev": "vitepress dev doc",
-    "docs:build": "vitepress build doc",
-    "docs:serve": "vitepress serve doc"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "files": [
     "dist/**",
