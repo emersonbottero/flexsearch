@@ -1,0 +1,21 @@
+:root {
+  --vp-c-brand: #4986ff;
+  --vp-c-brand-light: #4986ff;
+  --vp-c-brand-lighter: #4986ff;
+  --vp-c-brand-dark: #3c69c1;
+  --vp-c-brand-darker: #142d5d;
+}
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    150deg,
+    #3c69c1 50%,
+    #ff7300 70%,
+    #3c69c1 90%
+  );
+}
+
+.VPImage.logo {
+  height: 48px;
+}

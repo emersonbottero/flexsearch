@@ -44,7 +44,10 @@
     "build:module": "npx babel src -d dist/module && exit 0",
     "build:all": "npm run build && npm run build:light && npm run build:compact && npm run build:es5 && npm run build:debug && npm run build:module",
     "test": "cd test && npm install && npm run test",
-    "server": "node task/server"
+    "server": "node task/server",
+    "docs:dev": "vitepress dev doc",
+    "docs:build": "vitepress build doc",
+    "docs:serve": "vitepress serve doc"
   },
   "files": [
     "dist/**",
@@ -74,8 +77,12 @@
     "babel-plugin-transform-simplify-comparison-operators": "^6.9.4",
     "babel-plugin-transform-undefined-to-void": "^6.9.4",
     "cpx": "^1.5.0",
+    "flexsearch": "^0.7.31",
     "google-closure-compiler": "^20220905.0.0",
+    "markdown-it": "^13.0.1",
     "shx": "^0.3.3",
+    "vitepress": "^1.0.0-alpha.27",
+    "vitepress-plugin-search": "^1.0.4-alpha.15",
     "web-servo": "^0.5.1"
   }
 }
