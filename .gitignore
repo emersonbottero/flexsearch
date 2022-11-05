@@ -10,4 +10,4 @@ tmp
 log
 issue
 node
-#docs/.vitepress/dist
+docs/.vitepress/dist
