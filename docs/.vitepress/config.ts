@@ -2,9 +2,9 @@ import { version } from "../../package.json";
 
 export default {
   title: " ",
+  base: "/flexsearch/",
   themeConfig: {
     logo: "/flexsearch-logo-glass.svg",
-    base: "/flexsearch/",
     nav: [
       { text: "Guide", link: "/guide/concept", activeMatch: "/guide/" },
       { text: "Api", link: "/api/", activeMatch: "/api/" },
